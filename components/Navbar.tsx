@@ -64,13 +64,15 @@ const Navbar = () => {
                   <IoMdAdd className="text-xl" /> {` `} 
                   <span className="hidden md:block">Upload</span>
                 </button>
-              </Link >
+
+
+              </Link  >
               {userProfile?.image && (
               <Link href="/">
 
                 <>
                   <Image
-                    width={40}
+                    width={ 40 }
                     height={40}
                     className="rounded-full cursor-pointer"
                     src={userProfile?.image}
