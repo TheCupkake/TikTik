@@ -69,7 +69,6 @@ const Navbar = () => {
               </Link  >
               {userProfile?.image && (
               <Link href="/">
-
                 <>
                   <Image
                     width={ 40 }
