@@ -64,9 +64,10 @@ const Navbar = () => {
                   <IoMdAdd className="text-xl" /> {` `} 
                   <span className="hidden md:block">Upload</span>
                 </button>
-              </Link>
+              </Link >
               {userProfile?.image && (
               <Link href="/">
+
                 <>
                   <Image
                     width={40}
